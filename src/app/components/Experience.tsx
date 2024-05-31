@@ -6,20 +6,16 @@ function Experience() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0.33 1", "1.33 1"],
   });
 
   const scrollProgress = useTransform(scrollYProgress, [0, 1], [100, -100]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const scrollProgress2 = useTransform(
-    scrollYProgress,
-    [0.2, 0.8],
-    [150, -210]
-  );
+  const scrollProgress2 = useTransform(scrollYProgress, [0.2, 0.8], [150, -85]);
   const scrollProgress3 = useTransform(
     scrollYProgress,
-    [0.22, 0.8],
-    [190, -280]
+    [0.4, 0.8],
+    [190, -140]
   );
 
   return (

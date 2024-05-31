@@ -15,175 +15,126 @@ function Projects() {
   return (
     <section className="sectionAboutHorizontal">
       <h1>Projects</h1>
-      <motion.div className="projectWrapper">
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
-        <motion.div
-          // variants={item}
-          style={{ x: scrollProgress, opacity: opacityProgress }}
-          className="projectContainner"
-        >
-          {/* <h4>Robin by Mahindra and Mahindra</h4> */}
-          <ul className="pointers">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            </li>
-          </ul>
-        </motion.div>
+
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        // variants={item}
+        style={{ x: scrollProgress, opacity: opacityProgress }}
+        className="projectContainner"
+      >
+        {/* <h4>Robin by Mahindra and Mahindra</h4> */}
+        <ul className="pointers">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          </li>
+        </ul>
       </motion.div>
     </section>
   );
