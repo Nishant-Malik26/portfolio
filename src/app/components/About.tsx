@@ -1,22 +1,37 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 function About() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0.3 1", "1.33 1"],
+  });
+
+  const scrollProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1.3]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
   return (
-    <div className="sectionContainer">
+    <motion.div
+      style={{ scale: scrollProgress, opacity: opacityProgress }}
+      ref={ref}
+    >
       <section className="sectionAbout">
         {/* <h5 className="smallFont">Hi, my name is</h5> */}
         <p className="para">
-          Hello! My name is Brittany and I enjoy creating things that live on
-          the internet. My interest in web development started back in 2012 when
-          I decided to try editing custom Tumblr themes — turns out hacking
-          together a custom reblog button taught me a lot about HTML & CSS!
-          Fast-forward to today, and I’ve had the privilege of working at an
-          advertising agency, a start-up, a huge corporation, and a student-led
-          design studio. My main focus these days is building accessible,
-          inclusive products and digital experiences at Upstatement for a
-          variety of clients. I also recently launched a course that covers
-          everything you need to build a web app with the Spotify API using Node
-          & React. Here are a few technologies I’ve been working with recently:
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure
+          sapiente nobis, dicta id esse voluptate consequuntur quam veritatis
+          tenetur ducimus eum sed quae corporis nihil laudantium similique odio
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure
+          sapiente nobis, dicta id esse voluptate consequuntur quam veritatis
+          tenetur ducimus eum sed quae corporis nihil laudantium similique odio
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure
+          sapiente nobis, dicta id esse voluptate consequuntur quam veritatis
+          tenetur ducimus eum sed quae corporis nihil laudantium similique odio
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure
+          sapiente nobis, dicta id esse voluptate consequuntur quam veritatis
+          tenetur ducimus eum sed quae corporis nihil laudantium similique odio
         </p>
 
         <ul>
@@ -40,7 +55,7 @@ function About() {
           {/* <li>Tello</li> */}
         </ul>
       </section>
-    </div>
+    </motion.div>
   );
 }
 

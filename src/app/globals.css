@@ -18,6 +18,7 @@
 
 body {
   /* scroll-behavior: smooth; */
+  overflow-x: hidden;
   color: white;
   background: linear-gradient(to bottom, rgb(14, 14, 95), black) black;
 }
@@ -39,7 +40,7 @@ body {
   flex-direction: row-reverse;
   line-height: 3rem;
   /* border-bottom: 2px solid grey; */
-  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(51, 10, 118);
+  /* box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(51, 10, 118); */
 }
 
 ul {
@@ -79,10 +80,21 @@ h1 {
   @apply font-bold;
   color: rgb(206, 214, 243);
 }
+
 h2 {
   @apply text-7xl;
   @apply font-bold;
   color: rgb(138, 146, 173);
+}
+
+h3 {
+  @apply text-5xl;
+  @apply font-semibold;
+}
+
+h4 {
+  @apply text-2xl;
+  @apply font-bold;
 }
 
 h5 {
@@ -114,6 +126,49 @@ h5 {
   margin-top: -4px;
   margin-left: -4px;
   box-shadow: 4px 4px rgb(131, 227, 201);
+}
+
+.experienceContainner {
+  border: 2px solid grey;
+  padding: 2rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pointers {
+  flex-direction: column;
+}
+
+.sectionAboutHorizontal {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-top: 10rem;
+  height: 100vh;
+  /* width: 100%; */
+  margin-left: 15%;
+  /* line-height: 15rem; */
+  display: flex;
+  flex-direction: column;
+  /* font-style: ; */
+  /* flex-direction: column; */
+  /* line-height: 50px; */
+  row-gap: 2rem;
+}
+
+.projectContainner {
+  border: 2px solid grey;
+  padding: 1rem;
+  /* width: 70%; */
+  /* height: 10%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.projectWrapper {
+  display: flex;
 }
 
 /* li {

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
