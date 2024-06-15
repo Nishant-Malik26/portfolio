@@ -9,7 +9,7 @@ function About() {
     offset: ["0.3 1", "1.33 1"],
   });
 
-  const scrollProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1.3]);
+  const scrollProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
@@ -34,22 +34,22 @@ function About() {
           tenetur ducimus eum sed quae corporis nihil laudantium similique odio
         </p>
 
-        <ul>
+        <ul className="techStack">
           <li>JS</li>
           <li>Java</li>
           {/* <li>Tello</li> */}
         </ul>
-        <ul>
+        <ul className="techStack">
           <li>JS</li>
           <li>Java</li>
           {/* <li>Tello</li> */}
         </ul>
-        <ul>
+        <ul className="techStack">
           <li>JS</li>
           <li>Java</li>
           {/* <li>Tello</li> */}
         </ul>
-        <ul>
+        <ul className="techStack">
           <li>JS</li>
           <li>Java</li>
           {/* <li>Tello</li> */}
