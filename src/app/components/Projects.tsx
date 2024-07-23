@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 function Projects() {
   const ref = useRef(null);
@@ -20,6 +21,7 @@ function Projects() {
         opacity: opacityProgress,
         marginTop: "5rem",
       }}
+      id="sectionProjects"
       ref={ref}
     >
       <section className="sectionAboutHorizontal">
@@ -30,33 +32,55 @@ function Projects() {
           // style={{ x: scrollProgress, opacity: opacityProgress }}
           className="projectContainner"
         >
-          <Image
-            className="projectImage"
-            alt="projectImage"
-            src="/devconnector.png"
-            width={700}
-            height={800}
-          />
+          <Link
+            className="links"
+            href="https://client2-devconnector-com.onrender.com/"
+            passHref={true}
+          >
+            <Image
+              className="projectImage"
+              alt="projectImage"
+              src="/devconnector.png"
+              width={700}
+              height={800}
+            />
+          </Link>
           <div className="leftSubsectionProject">
-            <div style={{ textAlign: "right", marginLeft: "13rem" }}>
-              Robin by Mahindra and Mahindra
-            </div>
+            <Link
+              className="links"
+              href="https://client2-devconnector-com.onrender.com/"
+              passHref={true}
+            >
+              <div style={{ textAlign: "right", marginLeft: "13rem" }}>
+                Devconnector
+              </div>
+            </Link>
             <div className="boldTag">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              ullam dolore? Aut necessitatibus ad laudantium odit! Accusantium
-              deleniti, quo pariatur fugit, recusandae et magni mollitia porro,
-              voluptatem nesciunt rem id.
+              I developed DevConnector, a social network application featuring
+              user authentication with JWT, profile management, and post CRUD
+              functionalities. The project utilized JavaScript, Node.js,
+              React.js, Redux, Express.js, MongoDB, Git, and Docker. I
+              containerized the application with Docker and Docker Compose, and
+              orchestrated its deployment using Kubernetes. You can view the
+              GitHub repository and access the deployed application using links
+              belows.
             </div>
-            <ul style={{ marginTop: "17rem", marginLeft: "0.5rem" }}>
-              <ul>heloo</ul>
-              <ul>heloo</ul>
-              <ul>heloo</ul>
-              <ul>heloo</ul>
-              <ul>heloo</ul>
-            </ul>
-            <ul style={{ marginLeft: "20rem" }}>
-              <ul>link</ul>
-              <ul>link</ul>
+
+            <ul className="linksContainer">
+              <Link
+                className="links"
+                href="https://github.com/Nishant-Malik26/NodePrep"
+                passHref={true}
+              >
+                <ul>Github Repository</ul>
+              </Link>
+              <Link
+                className="links"
+                href="https://client2-devconnector-com.onrender.com/"
+                passHref={true}
+              >
+                <ul>Deployed Application</ul>
+              </Link>
             </ul>
           </div>
         </motion.div>

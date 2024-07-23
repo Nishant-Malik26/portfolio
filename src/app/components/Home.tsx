@@ -46,17 +46,17 @@ function HomePage() {
     >
       <motion.nav className="navigation">
         <motion.ul variants={container} initial="hidden" animate="show">
+          {/* <motion.li variants={item}>
+            <Link href={"#sectionAbout"}>About</Link>
+          </motion.li> */}
           <motion.li variants={item}>
-            <Link href={"#about"}>About</Link>
+            <Link href={"#sectionExperience"}>Experience</Link>
           </motion.li>
           <motion.li variants={item}>
-            <Link href={"#experience"}>Experience</Link>
+            <Link href={"#sectionProjects"}>Projects</Link>
           </motion.li>
           <motion.li variants={item}>
-            <Link href={"#projects"}>Projects</Link>
-          </motion.li>
-          <motion.li variants={item}>
-            <Link href={"#contact"}>Contact</Link>
+            <Link href={"#sectionContact"}>Contact</Link>
           </motion.li>
         </motion.ul>
       </motion.nav>
@@ -74,9 +74,9 @@ function HomePage() {
           <h2>I am building things for web</h2>
         </motion.div>
         <motion.p variants={sectionItems} className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure
-          sapiente nobis, dicta id esse voluptate consequuntur quam veritatis
-          tenetur ducimus eum sed quae corporis nihil laudantium similique odio
+          I'm passionate about crafting seamless web experiences as a full-stack
+          developer, leveraging AWS to bring innovative solutions to life. Let's
+          build something extraordinary together.
         </motion.p>
         <motion.div variants={sectionItems}>
           <button className="resumeButton">Checkout My Resume</button>

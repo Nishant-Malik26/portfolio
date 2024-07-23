@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
 
 function Contact() {
   const ref = useRef(null);
@@ -17,6 +16,7 @@ function Contact() {
     <motion.div
       style={{ scale: scrollProgress, opacity: opacityProgress }}
       ref={ref}
+      id="sectionContact"
     >
       <section className="sectionContact">
         <h1>Get in touch</h1>
@@ -27,13 +27,15 @@ function Contact() {
           className="projectContainner"
         >
           <div style={{ textAlign: "center", width: "50%", marginLeft: "25%" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rerum
-            harum sapiente saepe ipsum. Voluptatem culpa explicabo illo facilis
-            quia, voluptatibus, asperiores beatae laborum aspernatur tempore
-            vitae id. Qui, temporibus.
+            I am actively seeking new opportunities as a Full Stack, Frontend,
+            or Backend Developer. If you have any exciting roles or projects in
+            mind, feel free to reach out—I’d love to hear from you and discuss
+            potential opportunities!
           </div>
         </motion.div>
-        <button className="resumeButton">Contact Me</button>
+        <a className="resumeButton" href="mailto:nishantmalik2015@gmail.com">
+          Contact Me
+        </a>
       </section>
     </motion.div>
   );

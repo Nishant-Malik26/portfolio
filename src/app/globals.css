@@ -24,6 +24,10 @@ body {
   background: linear-gradient(to bottom, rgb(14, 14, 95), black) black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* .wrapper {
   height: 100vh;
   /* overflow-y: scroll; */
@@ -123,6 +127,8 @@ h5 {
   margin-top: 0;
   margin-left: 0;
   transition: all 0.3s;
+  display: flex;
+  justify-content: center;
 }
 
 .resumeButton:hover {
@@ -175,8 +181,50 @@ h5 {
   left: 0;
 }
 
+.techstackContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Ensure columns adjust to available space */
+  gap: 20px; /* Space between columns and rows */
+  margin: 0 -1.7rem;
+  padding: 20px;
+  max-width: 1200px; /* Adjust max width as needed */
+}
+
 .techStack {
-  list-style: square;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 1rem;
+  display: block;
+  justify-self: flex-start;
+}
+
+.techStack li {
+  margin: 10px 0;
+  padding: 10px; /* Add padding for better visual alignment */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Add background color for better visibility */
+  border-radius: 5px; /* Optional: Add border radius for better appearance */
+  width: 15rem;
+}
+
+.linksContainer {
+  margin-left: 14rem;
+  margin-top: 20rem;
+}
+
+.links:hover {
+  cursor: pointer;
+  color: rgb(131, 227, 201);
 }
 
 .boldTag {
