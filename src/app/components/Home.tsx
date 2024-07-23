@@ -74,8 +74,8 @@ function HomePage() {
           <h2>I am building things for web</h2>
         </motion.div>
         <motion.p variants={sectionItems} className="para">
-          I'm passionate about crafting seamless web experiences as a full-stack
-          developer, leveraging AWS to bring innovative solutions to life. Let's
+          I&apos;m passionate about crafting seamless web experiences as a full-stack
+          developer, leveraging AWS to bring innovative solutions to life. Let&apos;s
           build something extraordinary together.
         </motion.p>
         <motion.div variants={sectionItems}>

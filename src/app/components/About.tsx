@@ -21,21 +21,21 @@ function About() {
       <section className="sectionAbout">
         {/* <h5 className="smallFont">Hi, my name is</h5> */}
         <p className="para">
-          Hi, I'm Nishant Malik, a dedicated full-stack developer with a flair
+          Hi, I&apos;m Nishant Malik, a dedicated full-stack developer with a flair
           for building innovative web solutions. My journey in the tech world
           has been fueled by a passion for creating seamless user experiences
           and leveraging the power of AWS to deliver robust and scalable
           applications. With a strong foundation in both front-end and back-end
           technologies, I thrive on turning complex problems into elegant,
-          efficient code. Whether it's optimizing performance, enhancing user
+          efficient code. Whether it&apos;s optimizing performance, enhancing user
           interfaces, or ensuring secure data handling, I am committed to
           excellence in every aspect of development. At the heart of my work is
           a desire to push boundaries and drive progress. I believe in
           continuous learning and staying abreast of the latest industry trends
-          to keep my skills sharp and my projects cutting-edge. Let's connect
-          and create something extraordinary together. Whether it's
+          to keep my skills sharp and my projects cutting-edge. Let&apos;s connect
+          and create something extraordinary together. Whether it&apos;s
           collaborating on groundbreaking projects or sharing insights on the
-          latest in tech, I'm excited about the possibilities that lie ahead.
+          latest in tech, I&apos;m excited about the possibilities that lie ahead.
         </p>
         <div className="techstackContainer">
           <ul className="techStack">
